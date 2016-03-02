@@ -1,0 +1,62 @@
+{
+<<<<<<< HEAD
+  "name": "picnic_house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.5.4",
+    "kerberos": "^0.0.18",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rakshit Chopra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choprarik/kyc_short/issues"
+  },
+=======
+  "name": "cookie-parser",
+  "description": "cookie parsing with signatures",
+  "version": "1.4.1",
+  "author": "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+  ],
+  "license": "MIT",
+  "repository": "expressjs/cookie-parser",
+  "keywords": [
+    "cookie",
+    "middleware"
+  ],
+  "dependencies": {
+    "cookie": "0.2.3",
+    "cookie-signature": "1.0.6"
+  },
+  "devDependencies": {
+    "istanbul": "0.4.2",
+    "mocha": "2.3.4",
+    "supertest": "1.1.0"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  }
+>>>>>>> 74d3caa4d89006db4c6fc0e1b41d70ee03e5d398
+}
